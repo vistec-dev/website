@@ -1179,6 +1179,59 @@ h6 {
   background: #0067d5;
   cursor: pointer;
 }
+/*--------------------------------------------------------------
+# Feedback
+--------------------------------------------------------------*/
+
+#feedback {
+  text-align: center;
+}
+.feeback {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.8em;
+  width: 30em;
+  padding: 1em;
+}
+
+.feedback * {
+  box-sizing: border-box;
+}
+
+.feeback label {
+  padding: 0;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+}
+
+.feedback input,
+.feedback select,
+.feedback textarea {
+  margin-left: 2em;
+  width: 20em;
+  border: 1px solid #ccc;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.9em;
+  padding: 0.3em;
+}
+
+.feedback textarea {
+  height: 100px;
+}
+
+.feedback button {
+  padding: 1em;
+  border-radius: 0.5em;
+  background: #eee;
+  border: none;
+  font-weight: bold;
+  margin-top: 1.8em;
+}
+
+.feedback button:hover {
+  background: #ccc;
+  cursor: pointer;
+}
 
 /*--------------------------------------------------------------
 # Footer
